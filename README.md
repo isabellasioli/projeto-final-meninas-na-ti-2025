@@ -72,30 +72,56 @@ tema-exemplo/
 
 ## 🚀 Como Começar
 
-### 1️⃣ **Faça um Fork do Repositório**
+### 1️⃣ **Faça um Fork do Repositório pela Interface Web**
 
 ⚠️ **IMPORTANTE:** Você deve fazer um **fork** deste repositório para trabalhar em sua própria cópia!
 
 **O que é um fork?**
 Um fork é uma cópia do repositório na sua conta do GitHub onde você pode fazer suas alterações.
 
-**Como fazer:**
-1. Acesse: https://github.com/gdbarros94/projeto-final-meninas-na-ti-2025
-2. Clique no botão **"Fork"** no canto superior direito
-3. O GitHub criará uma cópia do repositório na sua conta
+**Como fazer o fork pela interface web:**
+1. **Crie uma conta no GitHub** se ainda não tiver: https://github.com/signup
+2. **Acesse o repositório original**: https://github.com/gdbarros94/projeto-final-meninas-na-ti-2025
+3. **Clique no botão "Fork"** no canto superior direito da página
+4. O GitHub criará uma cópia do repositório na sua conta
+5. Agora você tem seu próprio fork em: `https://github.com/SEU-USUARIO/projeto-final-meninas-na-ti-2025`
 
-### 2️⃣ **Clone SEU Fork**
+### 2️⃣ **Baixe os Arquivos do SEU Fork**
 
-Agora, baixe **seu fork** (não o repositório original) para seu computador:
+Você pode trabalhar de duas formas:
 
+**Opção A - Download Direto (Mais Simples):**
+1. No seu fork, clique no botão verde **"Code"**
+2. Clique em **"Download ZIP"**
+3. Extraia o arquivo ZIP no seu computador
+4. Trabalhe nos arquivos normalmente
+
+**Opção B - Usando Git (Para quem já conhece):**
 ```bash
 git clone https://github.com/SEU-USUARIO/projeto-final-meninas-na-ti-2025.git
 cd projeto-final-meninas-na-ti-2025
 ```
 
-⚠️ **Atenção:** Substitua `SEU-USUARIO` pelo seu nome de usuário do GitHub!
+### 3️⃣ **Faça Upload dos Seus Arquivos para o GitHub**
 
-### 3️⃣ **Escolha um Tema**
+Após trabalhar nos arquivos localmente, envie-os de volta para seu fork:
+
+**Pela Interface Web (Recomendado):**
+1. Acesse seu fork no GitHub: `https://github.com/SEU-USUARIO/projeto-final-meninas-na-ti-2025`
+2. Navegue até a pasta onde quer adicionar/editar arquivos
+3. Clique em **"Add file"** > **"Upload files"**
+4. Arraste seus arquivos ou clique em "choose your files"
+5. Adicione uma mensagem descrevendo suas mudanças
+6. Clique em **"Commit changes"**
+
+**Usando Git (Opcional):**
+```bash
+git add .
+git commit -m "Descrição das mudanças"
+git push origin main
+```
+
+### 4️⃣ **Escolha um Tema**
 
 Navegue até a pasta `/temas/` e escolha o tema que mais combina com você:
 
@@ -112,7 +138,7 @@ Navegue até a pasta `/temas/` e escolha o tema que mais combina com você:
 | 🛠️ **ferramenta-online** | Gerador/calculadora | Quem gosta de desafios |
 | 🤝 **projeto-social** | ONG ou ação social | Quem quer fazer diferença |
 
-### 4️⃣ **Configure Seu Ambiente**
+### 5️⃣ **Configure Seu Ambiente**
 
 Você vai precisar de:
 
@@ -122,7 +148,7 @@ Você vai precisar de:
   - Live Server (para visualizar site em tempo real)
   - Prettier (formatação de código)
 
-### 5️⃣ **Copie o Template Base**
+### 6️⃣ **Copie o Template Base**
 
 Copie os arquivos do `template-base` para a pasta do seu tema escolhido:
 
@@ -136,7 +162,7 @@ Ou faça manualmente:
 2. Copie todos os arquivos (index.html, style.css, script.js, data.json)
 3. Cole na pasta do seu tema
 
-### 6️⃣ **Personalize Seu Projeto**
+### 7️⃣ **Personalize Seu Projeto**
 
 Siga as instruções específicas do tema:
 
@@ -146,7 +172,7 @@ Siga as instruções específicas do tema:
 4. Adicione suas imagens na pasta `assets/images/`
 5. Personalize o `data.json` com seus dados
 
-### 7️⃣ **Teste no Navegador**
+### 8️⃣ **Teste no Navegador**
 
 Para visualizar seu site:
 
@@ -338,30 +364,46 @@ Seu projeto **DEVE** conter os seguintes requisitos:
 
 ## 📬 Como Enviar a Entrega
 
-### ⭐ **Método de Avaliação Principal: Fork no GitHub**
+### ⭐ **Método de Avaliação: Pull Request via Interface Web**
 
-✅ **Seu projeto será avaliado através do fork que você criou!**
+✅ **Seu projeto será avaliado através de um Pull Request que você criará!**
+
+**Passo a passo para enviar:**
+
+### 1️⃣ **Certifique-se que seus arquivos estão no seu fork**
+- Todos os arquivos modificados devem estar no seu fork no GitHub
+- Se ainda não fez upload, volte à seção "Como Começar" passo 3️⃣
+
+### 2️⃣ **Crie um Pull Request pela interface web**
+
+1. **Acesse seu fork** no GitHub: `https://github.com/SEU-USUARIO/projeto-final-meninas-na-ti-2025`
+2. Clique no botão **"Contribute"** (logo abaixo do botão verde "Code")
+3. Clique em **"Open pull request"**
+4. Você será redirecionado para uma página de comparação
+5. **Preencha as informações:**
+   - **Título:** `Projeto Final - [SEU-NOME] - [TEMA-ESCOLHIDO]`
+   - **Descrição:** Descreva brevemente o que você fez:
+     ```
+     - Tema escolhido: [nome do tema]
+     - Funcionalidades implementadas: [liste o que fez]
+     - Tecnologias utilizadas: HTML, CSS, JavaScript, Bootstrap
+     ```
+6. Clique no botão **"Create pull request"**
+7. **Pronto!** Seu Pull Request foi criado e o professor será notificado
+
+### 3️⃣ **Confirmação**
 
 O professor irá:
-1. Acessar o repositório original
-2. Visualizar todos os forks criados pelas alunas
-3. Avaliar seu trabalho diretamente no seu fork
-
-**O que você precisa fazer:**
-1. Trabalhe no fork que você criou (seguindo os passos da seção "Como Começar")
-2. Faça commits das suas alterações regularmente:
-   ```bash
-   git add .
-   git commit -m "Descrição das mudanças"
-   git push origin main
-   ```
-3. Certifique-se de que todas as suas alterações foram enviadas (push) para o GitHub
-4. Pronto! O professor já poderá ver e avaliar seu trabalho
+- Receber notificação do seu Pull Request
+- Revisar seu código diretamente no Pull Request
+- Deixar comentários e feedback se necessário
+- Avaliar seu trabalho
 
 ⚠️ **Importante:** 
 - Mantenha seu fork **público** para que o professor possa acessá-lo
-- Faça o push de todas as suas alterações antes da data de entrega
-- O professor verá a lista de forks automaticamente no GitHub
+- Crie o Pull Request antes da data de entrega
+- Não é necessário que o Pull Request seja aprovado/merged - ele serve apenas para avaliação
+- Se precisar fazer correções, basta fazer upload dos arquivos atualizados no seu fork que o Pull Request será atualizado automaticamente
 
 ---
 
@@ -399,14 +441,14 @@ Cada mudança que fizer, teste no navegador. Não espere terminar tudo para test
 ### 3. **Use o Console (F12)**
 Quando algo não funcionar, abra o Console (F12) para ver os erros. Ele te dirá o que está errado.
 
-### 4. **Commit e Push Frequentemente**
-Salve seu progresso regularmente no GitHub:
-```bash
-git add .
-git commit -m "Adiciona seção de produtos"
-git push origin main
-```
-**Lembre-se:** O professor verá suas alterações através do seu fork!
+### 4. **Salve Seu Progresso Frequentemente**
+Faça upload dos arquivos atualizados regularmente no seu fork (via interface web):
+- Acesse seu fork no GitHub
+- Use **"Add file" > "Upload files"** 
+- Adicione uma mensagem descrevendo o que mudou
+- Commit para salvar as alterações
+
+**Lembre-se:** Quanto mais você salvar no GitHub, menos trabalho perderá se algo der errado!
 
 ### 5. **Não Tenha Medo de Errar**
 Erros fazem parte do aprendizado! Sempre dá para desfazer e tentar de novo.

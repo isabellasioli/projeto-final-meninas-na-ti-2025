@@ -1,0 +1,27 @@
+[
+  {
+    "titulo": "Produto Exemplo 1",
+    "descricao": "Esta é uma descrição detalhada do primeiro produto de exemplo. Personalize com informações reais sobre seu projeto.",
+    "imagem": "https://via.placeholder.com/400x300/667eea/ffffff?text=Produto+1"
+  },
+  {
+    "titulo": "Produto Exemplo 2",
+    "descricao": "Esta é uma descrição detalhada do segundo produto de exemplo. Substitua este texto pelo conteúdo do seu tema.",
+    "imagem": "https://via.placeholder.com/400x300/764ba2/ffffff?text=Produto+2"
+  },
+  {
+    "titulo": "Produto Exemplo 3",
+    "descricao": "Esta é uma descrição detalhada do terceiro produto de exemplo. Use este formato como referência para seus dados.",
+    "imagem": "https://via.placeholder.com/400x300/f093fb/ffffff?text=Produto+3"
+  },
+  {
+    "titulo": "Produto Exemplo 4",
+    "descricao": "Esta é uma descrição detalhada do quarto produto de exemplo. Adicione quantos itens precisar no seu projeto.",
+    "imagem": "https://via.placeholder.com/400x300/4facfe/ffffff?text=Produto+4"
+  },
+  {
+    "titulo": "Produto Exemplo 5",
+    "descricao": "Esta é uma descrição detalhada do quinto produto de exemplo. Lembre-se de manter a mesma estrutura JSON.",
+    "imagem": "https://via.placeholder.com/400x300/00f2fe/ffffff?text=Produto+5"
+  }
+]

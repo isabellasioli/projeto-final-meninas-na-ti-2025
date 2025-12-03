@@ -1,0 +1,42 @@
+[
+  {
+    "titulo": "Vestido Floral Primavera",
+    "descricao": "Vestido leve e elegante com estampa floral delicada. Perfeito para a primavera e o verão. Tecido fluido e confortável.",
+    "imagem": "assets/images/vestido-floral.jpg"
+  },
+  {
+    "titulo": "Calça Jeans Skinny",
+    "descricao": "Calça jeans de corte moderno skinny, com lavagem escura. Versátil e confortável para o dia a dia.",
+    "imagem": "assets/images/calca-jeans.jpg"
+  },
+  {
+    "titulo": "Blusa Branca Básica",
+    "descricao": "Blusa branca essencial no guarda-roupa. Tecido de algodão premium, corte clássico e atemporal.",
+    "imagem": "assets/images/blusa-branca.jpg"
+  },
+  {
+    "titulo": "Jaqueta Jeans Oversized",
+    "descricao": "Jaqueta jeans com modelagem oversized moderna. Ideal para compor looks despojados e estilosos.",
+    "imagem": "assets/images/jaqueta-jeans.jpg"
+  },
+  {
+    "titulo": "Saia Midi Plissada",
+    "descricao": "Saia midi com pregas elegantes. Perfeita para ocasiões especiais ou looks do trabalho.",
+    "imagem": "assets/images/saia-plissada.jpg"
+  },
+  {
+    "titulo": "Conjunto Moletom Comfort",
+    "descricao": "Conjunto de moletom confortável e estiloso. Ideal para dias frios ou momentos de relaxamento.",
+    "imagem": "assets/images/conjunto-moletom.jpg"
+  },
+  {
+    "titulo": "Blazer Alfaiataria Preto",
+    "descricao": "Blazer de alfaiataria clássico em preto. Essencial para looks profissionais e elegantes.",
+    "imagem": "assets/images/blazer-preto.jpg"
+  },
+  {
+    "titulo": "Vestido Longo Festa",
+    "descricao": "Vestido longo sofisticado para eventos especiais. Tecido nobre com caimento impecável.",
+    "imagem": "assets/images/vestido-longo.jpg"
+  }
+]

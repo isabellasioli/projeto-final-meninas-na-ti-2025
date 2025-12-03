@@ -1,0 +1,42 @@
+[
+  {
+    "titulo": "Gerador de Senhas Seguras",
+    "descricao": "Crie senhas fortes e aleatórias com diferentes níveis de segurança. Proteja suas contas online.",
+    "imagem": "assets/images/gerador-senha.jpg"
+  },
+  {
+    "titulo": "Calculadora de IMC",
+    "descricao": "Calcule seu Índice de Massa Corporal rapidamente. Descubra sua faixa de peso ideal.",
+    "imagem": "assets/images/calc-imc.jpg"
+  },
+  {
+    "titulo": "Conversor de Moedas",
+    "descricao": "Converta valores entre diferentes moedas com taxas atualizadas. Rápido e preciso.",
+    "imagem": "assets/images/conversor-moeda.jpg"
+  },
+  {
+    "titulo": "Timer Pomodoro",
+    "descricao": "Técnica de produtividade com cronômetro. Gerencie seu tempo e foque em suas tarefas.",
+    "imagem": "assets/images/pomodoro.jpg"
+  },
+  {
+    "titulo": "Lista de Tarefas (To-Do)",
+    "descricao": "Organize suas tarefas diárias com checklist interativo. Simples, prático e eficiente.",
+    "imagem": "assets/images/todo-list.jpg"
+  },
+  {
+    "titulo": "Gerador de QR Code",
+    "descricao": "Crie QR Codes personalizados para links, textos ou contatos. Download instantâneo.",
+    "imagem": "assets/images/qr-code.jpg"
+  },
+  {
+    "titulo": "Contador de Caracteres",
+    "descricao": "Conte palavras, caracteres e linhas de texto. Útil para redes sociais e trabalhos.",
+    "imagem": "assets/images/contador.jpg"
+  },
+  {
+    "titulo": "Encurtador de URLs",
+    "descricao": "Transforme links longos em URLs curtas e compartilháveis. Estatísticas de cliques incluídas.",
+    "imagem": "assets/images/encurtador.jpg"
+  }
+]

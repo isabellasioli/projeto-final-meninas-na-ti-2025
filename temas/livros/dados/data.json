@@ -1,0 +1,42 @@
+[
+  {
+    "titulo": "O Código da Vinci",
+    "descricao": "Thriller de mistério que combina arte, história e suspense. Best-seller mundial de Dan Brown.",
+    "imagem": "assets/images/codigo-vinci.jpg"
+  },
+  {
+    "titulo": "1984",
+    "descricao": "Distopia clássica de George Orwell sobre totalitarismo e vigilância. Uma obra atemporal e essencial.",
+    "imagem": "assets/images/1984.jpg"
+  },
+  {
+    "titulo": "Harry Potter - Coleção",
+    "descricao": "Box completo da saga mágica de J.K. Rowling. Aventura, fantasia e amizade em sete volumes épicos.",
+    "imagem": "assets/images/harry-potter.jpg"
+  },
+  {
+    "titulo": "O Pequeno Príncipe",
+    "descricao": "Clássico da literatura mundial de Antoine de Saint-Exupéry. Reflexões profundas em história encantadora.",
+    "imagem": "assets/images/pequeno-principe.jpg"
+  },
+  {
+    "titulo": "A Revolução dos Bichos",
+    "descricao": "Fábula política de George Orwell sobre poder e corrupção. Crítica social disfarçada de conto.",
+    "imagem": "assets/images/revolucao-bichos.jpg"
+  },
+  {
+    "titulo": "O Senhor dos Anéis",
+    "descricao": "Trilogia épica de fantasia de J.R.R. Tolkien. Aventura inesquecível pela Terra-Média.",
+    "imagem": "assets/images/senhor-aneis.jpg"
+  },
+  {
+    "titulo": "Sapiens",
+    "descricao": "História da humanidade por Yuval Noah Harari. Da Idade da Pedra à Era Digital de forma fascinante.",
+    "imagem": "assets/images/sapiens.jpg"
+  },
+  {
+    "titulo": "A Culpa é das Estrelas",
+    "descricao": "Romance emocionante de John Green sobre amor e superação. História que toca o coração.",
+    "imagem": "assets/images/culpa-estrelas.jpg"
+  }
+]

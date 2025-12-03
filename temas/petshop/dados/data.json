@@ -1,0 +1,42 @@
+[
+  {
+    "titulo": "Banho e Tosa Completo",
+    "descricao": "Serviço completo de higienização para seu pet. Inclui banho, tosa, hidratação e corte de unhas.",
+    "imagem": "assets/images/banho-tosa.jpg"
+  },
+  {
+    "titulo": "Ração Premium Cães",
+    "descricao": "Ração super premium para cães adultos. Ingredientes naturais e balanceados para saúde completa.",
+    "imagem": "assets/images/racao-caes.jpg"
+  },
+  {
+    "titulo": "Brinquedos Interativos",
+    "descricao": "Brinquedos inteligentes que estimulam a mente do seu pet. Perfeito para diversão e exercício.",
+    "imagem": "assets/images/brinquedos.jpg"
+  },
+  {
+    "titulo": "Consulta Veterinária",
+    "descricao": "Atendimento veterinário completo com profissionais qualificados. Cuidado e carinho para seu pet.",
+    "imagem": "assets/images/veterinario.jpg"
+  },
+  {
+    "titulo": "Ração Premium Gatos",
+    "descricao": "Alimentação especial para gatos. Rica em nutrientes essenciais para vida longa e saudável.",
+    "imagem": "assets/images/racao-gatos.jpg"
+  },
+  {
+    "titulo": "Casinhas e Camas",
+    "descricao": "Camas confortáveis e casinhas aconchegantes para seu pet dormir tranquilo e protegido.",
+    "imagem": "assets/images/camas.jpg"
+  },
+  {
+    "titulo": "Coleiras e Guias",
+    "descricao": "Coleiras resistentes e guias confortáveis em diversos modelos e tamanhos para passeios seguros.",
+    "imagem": "assets/images/coleiras.jpg"
+  },
+  {
+    "titulo": "Petiscos Naturais",
+    "descricao": "Petiscos saudáveis e naturais. Sem conservantes artificiais, perfeitos para recompensar seu amigo.",
+    "imagem": "assets/images/petiscos.jpg"
+  }
+]

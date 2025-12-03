@@ -1,0 +1,42 @@
+[
+  {
+    "titulo": "Bolo de Chocolate Fofinho",
+    "descricao": "Receita clássica de bolo de chocolate úmido e macio. Perfeito para o café da tarde da família.",
+    "imagem": "assets/images/bolo-chocolate.jpg"
+  },
+  {
+    "titulo": "Lasanha à Bolonhesa",
+    "descricao": "Lasanha tradicional italiana com molho bolonhesa caseiro. Camadas de massa, molho e queijo derretido.",
+    "imagem": "assets/images/lasanha.jpg"
+  },
+  {
+    "titulo": "Brigadeiro Gourmet",
+    "descricao": "Brigadeiro cremoso com chocolate nobre. Receita sofisticada do doce mais amado do Brasil.",
+    "imagem": "assets/images/brigadeiro.jpg"
+  },
+  {
+    "titulo": "Salada Caesar",
+    "descricao": "Salada Caesar autêntica com molho especial. Fresca, crocante e cheia de sabor.",
+    "imagem": "assets/images/salada-caesar.jpg"
+  },
+  {
+    "titulo": "Risoto de Cogumelos",
+    "descricao": "Risoto cremoso com mix de cogumelos frescos. Prato italiano elegante e sofisticado.",
+    "imagem": "assets/images/risoto.jpg"
+  },
+  {
+    "titulo": "Brownie de Chocolate",
+    "descricao": "Brownie denso e intenso de chocolate. Casquinha crocante por fora, cremoso por dentro.",
+    "imagem": "assets/images/brownie.jpg"
+  },
+  {
+    "titulo": "Frango ao Curry",
+    "descricao": "Frango suculento em molho de curry aromático. Prato exótico com equilíbrio perfeito de temperos.",
+    "imagem": "assets/images/frango-curry.jpg"
+  },
+  {
+    "titulo": "Cheesecake de Frutas",
+    "descricao": "Cheesecake cremoso com calda de frutas vermelhas. Sobremesa elegante que derrete na boca.",
+    "imagem": "assets/images/cheesecake.jpg"
+  }
+]

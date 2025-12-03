@@ -1,0 +1,42 @@
+[
+  {
+    "titulo": "Paris, França",
+    "descricao": "Cidade Luz com Torre Eiffel, Louvre e charme parisiense. Destino romântico e cultural imperdível.",
+    "imagem": "assets/images/paris.jpg"
+  },
+  {
+    "titulo": "Bali, Indonésia",
+    "descricao": "Paraíso tropical com praias paradisíacas e templos místicos. Natureza exuberante e cultura fascinante.",
+    "imagem": "assets/images/bali.jpg"
+  },
+  {
+    "titulo": "Nova York, EUA",
+    "descricao": "A cidade que nunca dorme. Arranha-céus icônicos, Broadway, Central Park e energia contagiante.",
+    "imagem": "assets/images/nova-york.jpg"
+  },
+  {
+    "titulo": "Santorini, Grécia",
+    "descricao": "Ilha grega com casinhas brancas e cúpulas azuis. Pôr do sol mais bonito do mundo.",
+    "imagem": "assets/images/santorini.jpg"
+  },
+  {
+    "titulo": "Machu Picchu, Peru",
+    "descricao": "Ruínas incas misteriosas nas montanhas dos Andes. Patrimônio mundial e maravilha histórica.",
+    "imagem": "assets/images/machu-picchu.jpg"
+  },
+  {
+    "titulo": "Tóquio, Japão",
+    "descricao": "Metrópole futurista que une tradição e tecnologia. Templos, arranha-céus, gastronomia e cultura pop.",
+    "imagem": "assets/images/toquio.jpg"
+  },
+  {
+    "titulo": "Dubai, Emirados Árabes",
+    "descricao": "Luxo e arquitetura futurista no deserto. Burj Khalifa, praias artificiais e shopping de classe mundial.",
+    "imagem": "assets/images/dubai.jpg"
+  },
+  {
+    "titulo": "Fernando de Noronha, Brasil",
+    "descricao": "Arquipélago brasileiro com praias paradisíacas. Águas cristalinas perfeitas para mergulho.",
+    "imagem": "assets/images/noronha.jpg"
+  }
+]

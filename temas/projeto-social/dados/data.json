@@ -1,0 +1,42 @@
+[
+  {
+    "titulo": "Aulas de Reforço Escolar",
+    "descricao": "Apoio educacional gratuito para crianças da comunidade. Professores voluntários ensinam com amor.",
+    "imagem": "assets/images/reforco-escolar.jpg"
+  },
+  {
+    "titulo": "Distribuição de Alimentos",
+    "descricao": "Combate à fome com distribuição semanal de cestas básicas. Ninguém deveria passar fome.",
+    "imagem": "assets/images/alimentos.jpg"
+  },
+  {
+    "titulo": "Oficinas de Artesanato",
+    "descricao": "Capacitação profissional através do artesanato. Gerando renda e resgatando autoestima.",
+    "imagem": "assets/images/artesanato.jpg"
+  },
+  {
+    "titulo": "Atendimento Médico Gratuito",
+    "descricao": "Mutirões de saúde com consultas e exames. Profissionais voluntários cuidando de quem precisa.",
+    "imagem": "assets/images/saude.jpg"
+  },
+  {
+    "titulo": "Abrigo para Animais",
+    "descricao": "Resgate e cuidado de animais abandonados. Castração, vacinação e busca por lares responsáveis.",
+    "imagem": "assets/images/abrigo-animais.jpg"
+  },
+  {
+    "titulo": "Esporte para Jovens",
+    "descricao": "Projeto esportivo que transforma vidas através do esporte. Disciplina, saúde e cidadania.",
+    "imagem": "assets/images/esporte.jpg"
+  },
+  {
+    "titulo": "Biblioteca Comunitária",
+    "descricao": "Acesso gratuito a livros e internet para toda comunidade. Educação é direito de todos.",
+    "imagem": "assets/images/biblioteca.jpg"
+  },
+  {
+    "titulo": "Curso de Informática",
+    "descricao": "Inclusão digital através de cursos gratuitos de informática. Preparando para o mercado de trabalho.",
+    "imagem": "assets/images/informatica.jpg"
+  }
+]

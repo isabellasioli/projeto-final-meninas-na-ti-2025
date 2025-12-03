@@ -1,0 +1,42 @@
+[
+  {
+    "titulo": "The Last of Us - Série",
+    "descricao": "Série dramática pós-apocalíptica baseada no aclamado videogame. Emoção e sobrevivência.",
+    "imagem": "assets/images/the-last-of-us.jpg"
+  },
+  {
+    "titulo": "Breaking Bad",
+    "descricao": "Drama criminal premiado sobre transformação e consequências. Uma das melhores séries de todos os tempos.",
+    "imagem": "assets/images/breaking-bad.jpg"
+  },
+  {
+    "titulo": "Demon Slayer - Anime",
+    "descricao": "Anime de ação e aventura com animação espetacular. História emocionante de família e determinação.",
+    "imagem": "assets/images/demon-slayer.jpg"
+  },
+  {
+    "titulo": "The Legend of Zelda - Game",
+    "descricao": "Jogo de aventura épica pelo reino de Hyrule. Exploração, puzzles e combate em mundo aberto.",
+    "imagem": "assets/images/zelda.jpg"
+  },
+  {
+    "titulo": "Oppenheimer - Filme",
+    "descricao": "Biografia dramática sobre o pai da bomba atômica. Filme vencedor de múltiplos prêmios.",
+    "imagem": "assets/images/oppenheimer.jpg"
+  },
+  {
+    "titulo": "Attack on Titan - Anime",
+    "descricao": "Anime de ação dark fantasy com plot twists incríveis. História complexa e personagens marcantes.",
+    "imagem": "assets/images/attack-titan.jpg"
+  },
+  {
+    "titulo": "Elden Ring - Game",
+    "descricao": "RPG de ação desafiador em mundo aberto fantástico. Criação de FromSoftware e George R.R. Martin.",
+    "imagem": "assets/images/elden-ring.jpg"
+  },
+  {
+    "titulo": "Stranger Things",
+    "descricao": "Série de ficção científica e terror dos anos 80. Mistérios sobrenaturais e nostalgia.",
+    "imagem": "assets/images/stranger-things.jpg"
+  }
+]

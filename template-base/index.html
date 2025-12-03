@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Base - Projeto Final</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Header Fixo -->
+    <header class="header-fixed">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Meu Projeto</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Bem-vindo ao Meu Projeto</h1>
+            <p class="hero-subtitle fade-in">Este é um template base para você começar seu projeto final</p>
+            <a href="#produtos" class="btn btn-primary btn-lg fade-in">Explore Agora</a>
+        </div>
+    </section>
+
+    <!-- Bloco 1: Cards de Produtos -->
+    <section id="produtos" class="produtos-section py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Nossos Produtos</h2>
+            <div class="row" id="produtos-container">
+                <!-- Os cards serão carregados via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Bloco 2: Formulário de Contato -->
+    <section id="contato" class="contato-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="section-title text-center mb-4">Entre em Contato</h2>
+                    <form id="formulario-contato" class="formulario-card">
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome Completo</label>
+                            <input type="text" class="form-control" id="nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label">Telefone</label>
+                            <input type="tel" class="form-control" id="telefone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg w-100">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Sobre Nós</h5>
+                    <p>Este é um projeto desenvolvido no curso Meninas na TI 2025.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Links Úteis</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Redes Sociais</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col text-center">
+                    <p class="mb-0">&copy; 2025 Meninas na TI. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- JavaScript Personalizado -->
+    <script src="script.js"></script>
+</body>
+</html>

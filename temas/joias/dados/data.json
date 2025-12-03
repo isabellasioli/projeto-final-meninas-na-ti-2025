@@ -1,0 +1,42 @@
+[
+  {
+    "titulo": "Colar de Pérolas Clássico",
+    "descricao": "Colar elegante com pérolas cultivadas naturais. Fecho em ouro 18k. Peça atemporal e sofisticada.",
+    "imagem": "assets/images/colar-perolas.jpg"
+  },
+  {
+    "titulo": "Brincos de Diamante",
+    "descricao": "Par de brincos com diamantes genuínos em ouro branco. Brilho e elegância para ocasiões especiais.",
+    "imagem": "assets/images/brincos-diamante.jpg"
+  },
+  {
+    "titulo": "Anel de Noivado Solitário",
+    "descricao": "Anel solitário em ouro 18k com diamante central. Símbolo perfeito de amor e compromisso eterno.",
+    "imagem": "assets/images/anel-noivado.jpg"
+  },
+  {
+    "titulo": "Pulseira de Prata Delicada",
+    "descricao": "Pulseira minimalista em prata 925. Design contemporâneo e versátil para uso diário.",
+    "imagem": "assets/images/pulseira-prata.jpg"
+  },
+  {
+    "titulo": "Brincos Argola Dourados",
+    "descricao": "Brincos argola médios em ouro amarelo 18k. Clássicos e versáteis para qualquer ocasião.",
+    "imagem": "assets/images/argola-dourada.jpg"
+  },
+  {
+    "titulo": "Colar Pingente Coração",
+    "descricao": "Colar delicado com pingente de coração em ouro rosé. Presente perfeito cheio de significado.",
+    "imagem": "assets/images/pingente-coracao.jpg"
+  },
+  {
+    "titulo": "Aliança Casamento Ouro",
+    "descricao": "Par de alianças em ouro 18k com acabamento fosco. Símbolo eterno de união e amor verdadeiro.",
+    "imagem": "assets/images/alianca-casamento.jpg"
+  },
+  {
+    "titulo": "Bracelete Pedras Preciosas",
+    "descricao": "Bracelete luxuoso com pedras preciosas coloridas. Peça exclusiva de design único e sofisticado.",
+    "imagem": "assets/images/bracelete-pedras.jpg"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "titulo": "Desenvolvimento Web",
+    "descricao": "Criação de sites modernos e responsivos. Soluções personalizadas com as melhores tecnologias do mercado.",
+    "imagem": "assets/images/dev-web.jpg"
+  },
+  {
+    "titulo": "Aplicativos Mobile",
+    "descricao": "Desenvolvimento de apps nativos para iOS e Android. Experiência única e performance excepcional.",
+    "imagem": "assets/images/app-mobile.jpg"
+  },
+  {
+    "titulo": "UI/UX Design",
+    "descricao": "Design de interfaces intuitivas e experiências memoráveis. Foco em usabilidade e estética.",
+    "imagem": "assets/images/ui-ux.jpg"
+  },
+  {
+    "titulo": "Cloud Computing",
+    "descricao": "Infraestrutura na nuvem escalável e segura. Migração e gestão de serviços cloud AWS, Azure e GCP.",
+    "imagem": "assets/images/cloud.jpg"
+  },
+  {
+    "titulo": "Consultoria Digital",
+    "descricao": "Estratégias digitais para transformar seu negócio. Análise, planejamento e execução de projetos.",
+    "imagem": "assets/images/consultoria.jpg"
+  },
+  {
+    "titulo": "Inteligência Artificial",
+    "descricao": "Soluções de IA e Machine Learning para automatizar processos. Inovação que gera resultados reais.",
+    "imagem": "assets/images/ia.jpg"
+  },
+  {
+    "titulo": "Segurança Digital",
+    "descricao": "Proteção de dados e sistemas contra ameaças. Auditoria, monitoramento e resposta a incidentes.",
+    "imagem": "assets/images/seguranca.jpg"
+  },
+  {
+    "titulo": "Suporte Técnico",
+    "descricao": "Suporte especializado 24/7 para sua empresa. Time técnico qualificado sempre disponível.",
+    "imagem": "assets/images/suporte.jpg"
+  }
+]

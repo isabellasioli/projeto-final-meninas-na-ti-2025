@@ -73,10 +73,8 @@ function ativarAnimacoesScroll() {
     });
 }
 
-js
-
 // ===========================
-// 3. Manipulação do Formulário
+// 3. Manipulação do Formulário (Contato Petshop)
 // ===========================
 
 /**
@@ -95,7 +93,7 @@ function configurarFormulario() {
         const mensagem = document.getElementById('mensagem').value;
         
         // Exibe mensagem de sucesso personalizada para o petshop
-        alert(`Obrigado, ${nome}! Recebemos sua mensagem.\n\nEntraremos em contato para enviarmos o seu livro o mais rápido possível.\n\nE-mail: ${email}\nTelefone: ${telefone}\nMensagem: ${mensagem}`);
+        alert(`Obrigado, ${nome}! Recebemos sua mensagem.\n\nEntraremos em contato para ajudar você e seu pet! 🐾\n\nE-mail: ${email}\nTelefone: ${telefone}\nMensagem: ${mensagem}`);
         
         // Limpa o formulário
         formulario.reset();

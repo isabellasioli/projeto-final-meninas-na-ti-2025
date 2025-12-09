@@ -86,18 +86,18 @@
                             <label for="mensagem" class="form-label">Mensagem</label>
                             <textarea class="form-control" id="mensagem" placeholder="Digite aqui..." rows="5" required></textarea>
                         </div>
-						<!-- Nova opção: Procurar livro -->
+						<!-- Nova opção: Marcar consulta -->
                     <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="ProcurarLivro">
-                        <label class="form-check-label" for="ProcurarLivro">
-                            ...
+                        <input type="checkbox" class="form-check-input" id="marcarConsulta">
+                        <label class="form-check-label" for="marcarConsulta">
+                            Desejo marcar uma consulta para meu pet
                         </label>
                     </div>
 					<!-- Campos adicionais para consulta (inicialmente escondidos) -->
                     <div id="consultaCampos" style="display: none;">
 
                         <div class="mb-3">
-                            <label for="nomePet" class="form-label">Nome do Livro</label>
+                            <label for="nomePet" class="form-label">Nome do Pet</label>
                             <input type="text" class="form-control" id="nomePet" placeholder="Escreva aqui...">
                         </div>
 
@@ -120,6 +120,14 @@
                             <label for="horaConsulta" class="form-label">Hora da Consulta</label>
                             <input type="time" class="form-control" id="horaConsulta">
                         </div>
+
+                    </div>
+                        <button type="submit" class="btn btn-primary btn-lg w-100">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
                     </div>
                         <button type="submit" class="btn btn-primary btn-lg w-100">Enviar Mensagem</button>

@@ -3,8 +3,8 @@
 // ===========================
 
 /**
- * Função para carregar os produtos do arquivo data.json
- */
+* Função para carregar os produtos do arquivo data.json
+*/
 async function carregarProdutos() {
     try {
         const response = await fetch('data.json');
@@ -14,13 +14,13 @@ async function carregarProdutos() {
     } catch (erro) {
         console.error('Erro ao carregar produtos:', erro);
         document.getElementById('produtos-container').innerHTML = 
-            '<p class="text-center">Erro ao carregar os produtos. Verifique se o arquivo data.json existe.</p>';
+        '<p class="text-center">Erro ao carregar os produtos. Verifique se o arquivo data.json existe.</p>';
     }
 }
 
 /**
- * Função para renderizar os produtos na página
- */
+* Função para renderizar os produtos na página
+*/
 function renderizarProdutos(produtos) {
     const container = document.getElementById('produtos-container');
     container.innerHTML = '';
@@ -34,7 +34,7 @@ function renderizarProdutos(produtos) {
                 <img src="${produto.imagem}" class="card-img-top" alt="${produto.titulo}">
                 <div class="card-body">
                     <h5 class="card-title">${produto.titulo}</h5>
-                    <p class="card-text">${produto.descricao}</p>
+                    <p class="card-text" id="descricao">${produto.descricao}</p>
                 </div>
             </div>
         `;
@@ -53,8 +53,8 @@ function renderizarProdutos(produtos) {
 // ===========================
 
 /**
- * Função para animar elementos quando aparecem no scroll
- */
+* Função para animar elementos quando aparecem no scroll
+*/
 function ativarAnimacoesScroll() {
     const elementos = document.querySelectorAll('.reveal');
     
@@ -78,8 +78,8 @@ function ativarAnimacoesScroll() {
 // ===========================
 
 /**
- * Função para lidar com o envio do formulário de contato
- */
+* Função para lidar com o envio do formulário de contato
+*/
 function configurarFormulario() {
     const formulario = document.getElementById('formulario-contato');
     
@@ -93,7 +93,7 @@ function configurarFormulario() {
         const mensagem = document.getElementById('mensagem').value;
         
         // Exibe mensagem de sucesso personalizada para o petshop
-        alert(`Obrigado, ${nome}! Recebemos sua mensagem.\n\nEntraremos em contato para ajudar você e seu pet! 🐾\n\nE-mail: ${email}\nTelefone: ${telefone}\nMensagem: ${mensagem}`);
+        alert(`Obrigado pela sua mensagem, ${nome}!\n\nE-mail: ${email}\nTelefone: ${telefone}\nMensagem: ${mensagem}`);
         
         // Limpa o formulário
         formulario.reset();
@@ -105,8 +105,8 @@ function configurarFormulario() {
 // ===========================
 
 /**
- * Adiciona scroll suave aos links de navegação
- */
+* Adiciona scroll suave aos links de navegação
+*/
 function configurarScrollSuave() {
     document.querySelectorAll('a[href^="#"]').forEach(link => {
         link.addEventListener('click', function(e) {
@@ -133,8 +133,8 @@ function configurarScrollSuave() {
 // ===========================
 
 /**
- * Função principal que inicializa todas as funcionalidades
- */
+* Função principal que inicializa todas as funcionalidades
+*/
 document.addEventListener('DOMContentLoaded', function() {
     // Carrega os produtos do JSON (Petshop)
     carregarProdutos();
@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('...');
 });
 
-document.getElementById("ProcurarLivro").addEventListener("change", function() {
+document.getElementById("encomendarLivro").addEventListener("change", function() {
     const campos = document.getElementById("consultaCampos");
     
     if (this.checked) {

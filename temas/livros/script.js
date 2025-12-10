@@ -24,10 +24,28 @@ async function carregarProdutos() {
 function renderizarProdutos(produtos) {
     const container = document.getElementById('produtos-container');
     container.innerHTML = '';
+
+    // Cria as seções com as categorias
+    // 1. Usa `map` para extrair todas as categorias.
+    const todasAsCategorias = produtos.map(livro => livro.categoria);
+
+    // 2. Usa o `Set` para obter apenas os valores únicos.
+    // 3. Usa o operador spread (`...`) para converter o `Set` de volta em um array.
+    const categoriasUnicas = [...new Set(todasAsCategorias)];
+
+    categoriasUnicas.forEach((categoria, index) => {
+        const categoriaContainer = document.createElement('div');
+        categoriaContainer.className = 'row categoria-container';
+        categoriaContainer.id = `categoria-${categoria.toLowerCase().replace(/\s+/g, '-')}`;
+        categoriaContainer.innerHTML = `
+            <h2 class="section-title text-center mt-5 mb-5">Livros de ${categoria}</h2>
+        `;
+        container.appendChild(categoriaContainer);
+    });
     
     produtos.forEach((produto, index) => {
         const col = document.createElement('div');
-        col.className = 'col-md-4';
+        col.className = 'col-md-4 mt-4';
         
         col.innerHTML = `
             <div class="card produto-card reveal" style="animation-delay: ${index * 0.1}s">
@@ -38,8 +56,28 @@ function renderizarProdutos(produtos) {
                 </div>
             </div>
         `;
-        
-        container.appendChild(col);
+
+        // Adiciona o card à seção correta com base na categoria
+        const categoriaContainer = document.getElementById(`categoria-${produto.categoria.toLowerCase().replace(/\s+/g, '-')}`);
+        categoriaContainer.appendChild(col);
+
+        col.addEventListener("click", () => {
+            let modalLivro = new bootstrap.Modal(document.getElementById('modalLivro'));
+            let modalLivroLabel = document.querySelector('#modalLivro .modal-title');
+            let modalLivroBody = document.querySelector('#modalLivro .modal-body');
+
+            modalLivroLabel.textContent = produto.titulo;
+            modalLivroBody.innerHTML = `
+                <img src="${produto.imagem}" class="img-fluid" alt="${produto.titulo}">
+                <p class="pt-3">${produto.descricao}</p>
+                <ul class="list-unstyled mt-3">
+                    <li class="card-text"><strong>Autor(a):</strong> ${produto["Autor(a)"]}</li>
+                    <li class="card-text"><strong>Lançamento:</strong> ${produto.lancamento}</li>
+                    <li class="card-text"><strong>Preço:</strong> ${produto.preco}</li>
+                </ul>
+            `;
+            modalLivro.show();
+        })
     });
     
     // Ativa as animações de revelação após renderizar
@@ -93,7 +131,7 @@ function configurarFormulario() {
         const mensagem = document.getElementById('mensagem').value;
         
         // Exibe mensagem de sucesso personalizada para o petshop
-        alert(`Obrigado pela sua mensagem, ${nome}!\n\nE-mail: ${email}\nTelefone: ${telefone}\nMensagem: ${mensagem}`);
+        alert(`Obrigado pela sua mensagem, ${nome}!\nIremos analisar sua mensagem e retornar em breve.\n\nE-mail: ${email}\nTelefone: ${telefone}\nMensagem: ${mensagem}`);
         
         // Limpa o formulário
         formulario.reset();

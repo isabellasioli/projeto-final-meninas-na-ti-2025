@@ -272,3 +272,12 @@ Responsividade
         padding: 25px;
     }
 }
+
+/* ===========================
+Modal
+=========================== */
+.modal-body {
+    font-family: "Margarine", cursive;
+    font-size: 1rem;
+    color: #333;
+}

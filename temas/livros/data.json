@@ -2,7 +2,7 @@
   {
     "titulo": "A Última Casa da Rua Needless",
     "descricao": "Um suspense psicológico perturbador e cheio de reviravoltas sobre um homem recluso, Ted, que vive no fim de uma rua sem saída com sua filha adolescente Lauren e sua gata Olívia, sendo o principal suspeito do desaparecimento de uma menina anos antes.",
-    "categoria": "Terror",
+    "categoria": "Terror/Suspense",
     "Autor(a)": "Catriona Ward",
     "lancamento": "2021",
     "preco": "R$ 33,90",
@@ -11,7 +11,7 @@
   {
     "titulo": "Billy Summers",
     "descricao": "Um ex-atirador de elite e assassino de aluguel que só elimina criminosos decide se aposentar após um último trabalho. Mas o plano falha, desencadeando uma teia de vingança e traição que o obriga a fugir para uma pequena cidade, onde vive disfarçado de escritor. Enquanto tenta manter seu passado em segredo, ele cria laços inesperados e enfrenta a própria consciência, buscando redenção enquanto o perigo se aproxima.",
-    "categoria": "Terror",
+    "categoria": "Terror/Suspense",
     "Autor(a)": "Stephen King",
     "lancamento": "2021",
     "preco": "R$ 47,15",
@@ -20,7 +20,7 @@
   {
     "titulo": "O Iluminado",
     "descricao": "Um romance de terror sobre a família Torrance — Jack, Wendy e o filho Danny — que se muda para o isolado Hotel Overlook durante o inverno para Jack trabalhar como zelador, buscando um recomeço após problemas com alcoolismo e fúria.",
-    "categoria": "Terror",
+    "categoria": "Terror/Suspense",
     "Autor(a)": "Stephen King",
     "lancamento": "1977",
     "preco": "R$ 32,59",
@@ -29,7 +29,7 @@
   {
     "titulo": "Doutor Sono",
     "descricao": "A sequência de O Iluminado, de Stephen King, que acompanha Dan Torrance, agora um adulto lutando contra o alcoolismo e assombrado pelo passado no Hotel Overlook, que encontra um novo propósito como 'Doutor Sono', usando seu poder de 'iluminação' para confortar moribundos em uma casa de repouso.",
-    "categoria": "Terror",
+    "categoria": "Terror/Suspense",
     "Autor(a)": "Stephen King",
     "lancamento": "2013",
     "preco": "R$ 42,90",
@@ -38,7 +38,7 @@
     {
     "titulo": "It a Coisa",
     "descricao": "Um clássico do terror que segue sete amigos que, na infância (1958), enfrentam uma entidade maligna que se alimenta do medo e assume a forma de seus maiores pesadelos, principalmente o palhaço Pennywise, em sua cidade natal, Derry. Quase 30 anos depois, eles retornam adultos para cumprir uma promessa de infância e lutar contra a Coisa, que ressurgiu, explorando temas como inocência, trauma e o poder da amizade contra o mal, com uma narrativa que alterna entre as duas épocas.",
-    "categoria": "Terror",
+    "categoria": "Terror/Suspense",
     "Autor(a)": "Stephen King",
     "lancamento": "1986",
     "preco": "R$ 44,50",
@@ -47,7 +47,7 @@
   {
     "titulo": "Manual de Assassinato para Boas Meninas",
     "descricao": "Um suspense juvenil sobre a estudante Pip, que decide investigar um assassinato antigo em sua cidade para seu projeto de conclusão de curso: o caso de Andie Bell, morta pelo namorado Sal Singh, que se suicidou logo depois, encerrando o caso como um crime passional.",
-    "categoria": "Terror",
+    "categoria": "Terror/Suspense",
     "Autor(a)": "Holly Jackson",
     "lancamento": "2019",
     "preco": "R$ 35,92",
